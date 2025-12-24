@@ -11,3 +11,4 @@ def solution(N, stages):
     # lambda: ans[i]를 기준으로 i를 정렬
     result = sorted(range(1, N+1), key=lambda i : ans[i], reverse=True)
     return result[:N]
+ 
